@@ -1,42 +1,72 @@
-        * {
-            font-family: 'Kanit', sans-serif;
-            font-weight: 300;
-        }
-        
-        .head-text h1 {
-            text-align: center;
-            /* position: absolute;
-            top: 25%;
-            transform: translate(-50%, -50%);
-            left: 50%;
-            color: #fff;
-            font-size: 60px; */
-        }
-        
-        .nav-link {
-            font-size: 24px;
-        }
-        
-        .place {
-            padding: 20px;
-        }
-        
-        .img-hotel img {
-            width: 100%;
-        }
-        /* .banner {
-            background-image: linear-gradient(rgba(9, 9, 10, 0.7), rgba(4, 9, 30, 0.7)), url('/assets/images/Travel/ภูกะดึง.jpeg');
-            height: 50vh;
-            width: 100%;
-            background-size: cover;
-            position: relative;
-        } */
-        
-        .detail {
-            padding: 20px;
-        }
-        
-        .content {
-            font-size: 16px;
-            padding: 10px;
-        }
+* {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    background: #FCFCFC;
+    color: #000D30;
+}
+
+.head-text {
+    text-align: center;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    font-size: 24px;
+}
+
+.head-travel {
+    text-align: center;
+}
+
+.head-text b {
+    font-size: 26px;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 24px;
+}
+
+.place {
+    padding: 20px;
+}
+
+.img-hotel img {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.detail {
+    padding: 20px;
+}
+
+.detail b {
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.content {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: rgb(255, 255, 255);
+    background-color: #000D30;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #000D30;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+footer {
+    background: #000D30;
+    height: 20vh;
+    width: 100%;
+    color: #fff;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
