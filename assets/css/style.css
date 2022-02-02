@@ -2,3 +2,11 @@
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
 }
+
+.head-text {
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 24px;
+}
