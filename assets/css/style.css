@@ -1,4 +1,4 @@
-* {
+body {
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
     /* background: #CBE2E9; */
@@ -31,7 +31,7 @@ a {
 
 .head-travel {
     text-align: center;
-    margin: 10vh 0 10vh 0;
+    margin: 10vh 0 5vh 0;
 }
 
 .head-text b {
@@ -41,6 +41,7 @@ a {
 
 .nav-link {
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .place {
@@ -52,12 +53,13 @@ a {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.detail {
+
+/* .detail {
     padding: 20px;
-}
+} */
 
 .detail b {
-    font-size: 28px;
+    font-size: 32px;
     padding-bottom: 20px;
     background: none;
 }
