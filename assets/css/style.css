@@ -1,8 +1,25 @@
 * {
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
-    background: #FCFCFC;
+    /* background: #CBE2E9; */
+    /* background-image: url(../images/bg/gray-wall.jpg); */
     color: #000D30;
+}
+
+.container {
+    background-color: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row {
+    background: none;
+}
+
+.col-md-6 {
+    background: none;
 }
 
 .head-text {
@@ -14,6 +31,7 @@
 
 .head-travel {
     text-align: center;
+    margin: 10vh 0 10vh 0;
 }
 
 .head-text b {
@@ -41,6 +59,11 @@
 .detail b {
     font-size: 28px;
     padding-bottom: 20px;
+    background: none;
+}
+
+.col-md-6 {
+    background: none;
 }
 
 .content {
@@ -68,5 +91,5 @@ footer {
     width: 100%;
     color: #fff;
     margin-top: 10%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
