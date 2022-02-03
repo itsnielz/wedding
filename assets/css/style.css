@@ -30,7 +30,12 @@ a {
     text-align: center;
     margin: 10vh 0 5vh 0;
 }
-
+.head-travel b {
+    text-align: center;
+    /* font-size: 32px; */
+    font-size: 2rem;
+    font-weight: 500;
+}
 .head-text b {
     font-size: 26px;
     text-align: center;
