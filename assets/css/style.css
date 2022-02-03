@@ -58,6 +58,11 @@ a {
     padding: 20px;
 } */
 
+.btn {
+    background: #000D30;
+    border: 0px;
+}
+
 .detail b {
     font-size: 32px;
     padding-bottom: 20px;
