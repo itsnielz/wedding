@@ -70,6 +70,16 @@ a {
     ;
 }
 
+.btn-map {
+    background: #32A350 !important;
+    color: #fff;
+}
+
+.btn-map:hover {
+    background: #1d612f !important;
+    color: #fff;
+}
+
 .detail b {
     font-size: 32px;
     padding-bottom: 20px;
