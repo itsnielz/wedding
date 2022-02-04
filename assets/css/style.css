@@ -111,9 +111,11 @@ a {
 
 footer {
     background: #000D30;
-    height: 20vh;
+    height: auto;
     width: 100%;
     color: #fff;
+    display: flex;
+    align-items: center;
     margin-top: 10%;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    padding: 20px;
 }
